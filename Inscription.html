@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Inscription</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./auth.css">
+   <form id="formsign" action="Login.html">
+<div class="box bg-img">
+  <div class="content">
+
+    <h2>Sign<span> Up</span></h2>
+ 
+      
+
+    <div class="forms">
+
+      <div class="user-input">
+          <input type="email" class="login-input" placeholder="E-mail" id="email" name="email" required>
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="user-input">
+          <input type="text" class="login-input" placeholder="Nom" id="name" name="name" required>
+        <i class="fas fa-user"></i>
+      </div>
+
+      <div class="pass-input">
+        <input type="password" class="login-input" placeholder="Password" id="password" required>
+            <span class="eye" onclick="myFunction()">
+              <i id="hide-1" class="fas fa-eye-slash"></i>
+              <i id="hide-2" class="fas fa-eye"></i>
+            </span>
+      </div>
+   </div>
+
+    <button type="submit" id="save_btn" class="login-btn">S'inscrire</button>
+
+    <p class="new-account">Vous avez déja un compte? <a href="Login.html">Login</a></p>
+
+    <br>
+
+  </div>
+</div>
+</form>
+
+<script src="auth.js"></script>
+
+<script src="https://kit.fontawesome.com/c0078485ae.js" crossorigin="anonymous"></script>
